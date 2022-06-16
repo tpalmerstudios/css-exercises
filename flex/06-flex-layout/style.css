@@ -6,6 +6,26 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+.header {
+	display: flex;
+	align-items: center;
+}
+.left-links {
+	display: flex;
+}
+.right-links {
+	display: flex;
+	justify-content: right;
+}
+.content {
+	flex: 1 0 auto;
+	display: flex;
+}
+.footer {
+	flex: 0 1 auto;
+	display: flex;
+	align-items: baseline;
+}
 
 img {
   width: 600px;
